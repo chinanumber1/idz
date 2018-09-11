@@ -1,0 +1,110 @@
+html,body{
+    font-size:  62.5%;
+    font-family: "Microsoft YaHei" ! important;
+    background: #fff;
+  }
+ 
+  	
+	*{
+		margin: 0;	
+		padding: 0;
+		
+	}
+
+	
+
+#top{
+    overflow: hidden;
+     padding:  1rem;
+}
+
+#bottom{
+  #padding:  1rem;
+
+}
+
+
+#left{
+    float:left;
+    width: 30%;
+    font-size: 1rem;
+  }
+  
+  #right{
+    float: right;
+    width: 70%;
+  }
+
+  .fabric li{
+      list-style:  none;
+      float:  left;
+      padding-right: 1rem;
+  }
+
+  #style{
+      width:  80%;
+      margin:  auto;
+      padding-top: 1rem;
+  }
+
+  .style li{
+    list-style:  none;
+    float:  left;
+
+}
+
+
+.order li{
+    list-style:  none;
+    float:  left;
+    padding-right: 1rem;
+}
+
+ 
+
+
+
+
+.change {
+    cursor: pointer;
+    border: none;
+    float: left;
+    list-style: none;
+    width: 15%;
+    text-align: center;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    /* position: relative; */
+    font-size: 0px;
+    border: 1px solid #ccc;
+    margin: 0.2rem;
+}
+.index_button{
+    text-align:  center;
+}
+
+.boxactive {
+    background: url(../static/arrow.svg) no-repeat !important;
+    background-position: right bottom !important;
+    background-size: 2rem 2rem !important;
+    border: 1px solid #2ca3f3 !important;
+    /* width: 16% !important; */
+}
+
+button {
+    border: none;
+    padding: 0.8rem;
+    background: #da251d;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0.6rem auto;
+    border-radius: 3rem;
+}
+
+.sub{
+    margin-top: 1rem;
+    text-align: left;
+    margin-left: 3.5rem;
+}
+
